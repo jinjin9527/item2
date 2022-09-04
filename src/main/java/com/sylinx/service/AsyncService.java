@@ -16,7 +16,8 @@ public class AsyncService {
     public void sendMsg(String message){
         // todo :模拟耗时5秒
         try {
-            System.out.println("modified by develop");
+            System.out.println("modified by support1");
+            System.out.println("modified by develop1");
             System.out.println("start sendMsg " + simpleDateFormat.format(new Date(System.currentTimeMillis())));
             Thread.sleep(5000);
             System.out.println("sendMsg : " + message);
